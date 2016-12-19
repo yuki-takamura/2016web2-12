@@ -3,7 +3,7 @@ var router = express.Router();
 var app = require('../app.js');
 var crypto = require('crypto');
 
-router.get('/:encrypt , function(req, res, next) {
+router.get('/:encrypt', function(req, res, next) {
 var encrypt = req.params.encrypt;
 if(encrypt !== undefined)
 {
